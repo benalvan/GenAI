@@ -1,0 +1,16 @@
+# API Keys
+*.env
+.env
+config.py
+
+# Python
+__pycache__/
+*.pyc
+
+# Jac
+*.jir
+__jac_gen__/
+
+# OS
+.DS_Store
+Thumbs.db
