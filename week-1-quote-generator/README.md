@@ -1,58 +1,58 @@
-\# 🌟 AI-Powered Inspirational Quote Generator
+# AI-Powered Inspirational Quote Generator
 
 
 
-An intelligent quote generation system built with \*\*Jaclang\*\* that leverages Google's Gemini AI to create personalized, inspirational quotes on any topic.
+An intelligent quote generation system built with **Jaclang** that leverages Google's Gemini AI to create personalized, inspirational quotes on any topic.
 
 
 
 
 
-📋 Overview
+## Overview
 
 
 
-This project demonstrates \*\*graph-based programming\*\* and \*\*AI integration\*\* using Jaclang. The application takes any topic as input and generates unique, motivational quotes using Google's Gemini 2.5 Flash model.
+This project demonstrates **graph-based programming** and **AI integration** using Jaclang. The application takes any topic as input and generates unique, motivational quotes using Google's Gemini 2.5 Flash model.
 
 
 
-Introduction to Jaclang and AI-Powered Programming
+## Introduction to Jaclang and AI-Powered Programming
 
 
 
-\## ✨ Features
+## Features
 
 
 
-\- 🤖 AI-powered quote generation using Google Gemini 2.5 Flash
+- 🤖 AI-powered quote generation using Google Gemini 2.5 Flash
 
-\- 🎨 Works with any topic you provide
+- 🎨 Works with any topic you provide
 
-\- 🚀 Built on Jaclang's node-walker architecture
+- 🚀 Built on Jaclang's node-walker architecture
 
-\- ⚡ Fast response times
+- ⚡ Fast response times
 
-\- 💬 Simple, interactive command-line interface
-
-
-
-\## 🔍 How It Works
+- 💬 Simple, interactive command-line interface
 
 
 
-The application uses Jaclang's \*\*graph-based programming model\*\*:
+## How It Works
 
 
 
-1\. \*\*Nodes\*\* hold data (`QuoteRequest` stores the topic)
-
-2\. \*\*Walkers\*\* traverse the graph and perform actions (`QuoteWalker`)
-
-3\. \*\*AI Integration\*\* via `by llm()` - the docstring becomes the AI prompt!
+The application uses Jaclang's **graph-based programming model**:
 
 
 
-\### The Magic: `by llm()`
+1. **Nodes** hold data (`QuoteRequest` stores the topic)
+
+2. **Walkers** traverse the graph and perform actions (`QuoteWalker`)
+
+3. **AI Integration** via `by llm()` - the docstring becomes the AI prompt!
+
+
+
+### The Magic: `by llm()`
 
 
 
@@ -64,7 +64,7 @@ The application uses Jaclang's \*\*graph-based programming model\*\*:
 
 The quote should be original, positive, and concise."""
 
-def get\_quote(data: dict) -> str by llm();
+def get_quote(data: dict) -> str by llm();
 
 ```
 
@@ -74,67 +74,67 @@ The `by llm()` decorator tells Jaclang to use AI to implement this function. The
 
 
 
-\## 🛠 Technologies Used
+## Technologies Used
 
 
 
-\- \*\*Jaclang\*\* - Graph-based programming language (superset of Python)
+- **Jaclang** - Graph-based programming language (superset of Python)
 
-\- \*\*Google Gemini 2.5 Flash\*\* - Large Language Model for quote generation
+- **Google Gemini 2.5 Flash** - Large Language Model for quote generation
 
-\- \*\*byllm\*\* - Jaclang library for LLM integration
-
-
-
-\## 📦 Installation
+- **byllm** - Jaclang library for LLM integration
 
 
 
-\### Prerequisites
-
-\- Python 3.10+
-
-\- Jaclang (`pip install jaclang`)
-
-\- Google Gemini API key (\[Get one here](https://aistudio.google.com/app/apikey))
+## Installation
 
 
 
-\### Setup
+### Prerequisites
+
+- Python 3.10+
+
+- Jaclang (`pip install jaclang`)
+
+- Google Gemini API key ([Get one here](https://aistudio.google.com/app/apikey))
+
+
+
+### Setup
 
 
 
 ```bash
 
-\# Clone the repository
+# Clone the repository
 
-git clone https://github.com/yourusername/jaclang-assignments.git
+git clone https://github.com/benalvan/GenAI.git
 
-cd jaclang-assignments/week-1-quote-generator
+cd GenAI/week-1-quote-generator
 
 
 
-\# Install Jaclang (if needed)
+# Install Jaclang (if needed)
 
 pip install jaclang
 
 
 
-\# Configure API key in quote\_generator.jac
+# Configure API key in quote_generator.jac
 
-\# Replace "YOUR\_API\_KEY\_HERE" with your actual key
+# Replace "YOUR\_API\_KEY\_HERE" with your actual key
 
 ```
 
 
 
-\## Usage
+## Usage
 
 
 
 ```bash
 
-jac run quote\_generator.jac
+jac run quote_generator.jac
 
 ```
 
@@ -172,49 +172,49 @@ Keep shining!
 
 
 
-\## 📚 Key Learnings
+## Key Learnings
 
 
 
 Through this project, I learned:
 
-\- ✅ Graph-based programming with nodes and walkers
+- ✅ Graph-based programming with nodes and walkers
 
-\- ✅ AI integration using `by llm()`
+- ✅ AI integration using `by llm()`
 
-\- ✅ Jaclang syntax: `node`, `walker`, `has`, `can`, `spawn`
+- ✅ Jaclang syntax: `node`, `walker`, `has`, `can`, `spawn`
 
-\- ✅ Prompt engineering for LLMs
+- ✅ Prompt engineering for LLMs
 
-\- ✅ Transitioning from Python OOP to graph-based paradigms
-
-
-
-\## Future Enhancements
+- ✅ Transitioning from Python OOP to graph-based paradigms
 
 
 
-\- \[ ] Multiple quote styles (motivational, philosophical, humorous)
-
-\- \[ ] Save favorite quotes to file
-
-\- \[ ] Multi-language support
-
-\- \[ ] Web interface
-
-\- \[ ] Quote history tracking
+## Future Enhancements
 
 
 
-\## 👨‍💻 Author
+- [ ] Multiple quote styles (motivational, philosophical, humorous)
+
+- [ ] Save favorite quotes to file
+
+- [ ] Multi-language support
+
+- [ ] Web interface
+
+- [ ] Quote history tracking
 
 
 
-\*\*\[Benard Alvan]\*\*
+## 👨‍💻 Author
 
-\- GitHub: \[@benalvan](https://github.com/benalvan)
 
-\- LinkedIn: \[Your LinkedIn](https://www.linkedin.com/in/benard-alvan/)
+
+**[Benard Alvan]**
+
+- GitHub: [@benalvan](https://github.com/benalvan)
+
+- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/benard-alvan/)
 
 
 
