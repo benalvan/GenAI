@@ -214,7 +214,7 @@ Through this project, I learned:
 
 - GitHub: [@benalvan](https://github.com/benalvan)
 
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/benard-alvan/)
+- LinkedIn: [Benard Alvan](https://www.linkedin.com/in/benard-alvan/)
 
 
 
