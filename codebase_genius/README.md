@@ -47,7 +47,7 @@ The system consists of two main agents implemented as Jaclang walkers:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/codebase_genius.git
+git clone https://github.com/benalvan/GenAI.git
 cd codebase_genius
 ```
 
