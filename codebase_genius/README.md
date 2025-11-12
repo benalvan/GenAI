@@ -90,10 +90,10 @@ cd BE
 source venv/bin/activate
 
 # Run directly with a repository URL
-jac run test_direct.jac
+jac run test.jac
 ```
 
-Edit `test_direct.jac` to change the repository URL:
+Edit `test.jac` to change the repository URL:
 ```jac
 root spawn doc_walker(repo_url="https://github.com/username/repo");
 ```
@@ -122,7 +122,7 @@ Frontend will open on `http://localhost:8501`
 ### Using Direct Execution:
 
 1. Edit `BE/test.jac` with your repository URL
-2. Run: `jac run test_direct.jac`
+2. Run: `jac run test.jac`
 3. Documentation will be saved to `outputs/<repo-name>/DOCS.md`
 
 ### Using API:
