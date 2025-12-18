@@ -90,7 +90,7 @@ walker PathPlanner {
 
         # Recommend courses for gap skills
         courses = self.recommend_courses(gap_skills);
-        timeline = gap_data.get("timeline", "3-6 months");
+        timeline = gap_data.get("timeline", "");
 
         # Create LearningPath node connected to root
         path = here ++> LearningPath(
