@@ -35,7 +35,7 @@ walker SkillMapper {
 
         skills = self.extract_skills(self.resume_text);
 
-        user = root ++> User(
+        user = here ++> User(
             user_id=f"user_{get_current_datetime()}",
             resume_text=self.resume_text,
             extracted_skills=skills,
@@ -93,7 +93,7 @@ walker PathPlanner {
         timeline = gap_data.get("timeline", "3-6 months");
 
         # Create LearningPath node connected to root
-        path = root ++> LearningPath(
+        path = here ++> LearningPath(
             user_id=self.user_id,
             target_role=self.target_role,
             gap_skills=gap_skills,
