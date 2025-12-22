@@ -23,7 +23,7 @@ AI-powered career guidance platform that analyzes your resume, identifies skill 
 
 ### Prerequisites
 - Python 3.10+
-- Node.js 18+ (for Jac Client)
+- Node.js (for Jac Client)
 - Gemini API Key ([Get one free](https://aistudio.google.com/app/apikey))
 
 ### Installation & Setup
