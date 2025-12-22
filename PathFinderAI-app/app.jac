@@ -321,7 +321,7 @@ cl {
             
             {(<div style={{"textAlign": "center", "padding": "40px"}}><h2>Loading...</h2></div>) if loading else (
                 (<div style={{"background": "#fff", "padding": "30px", "borderRadius": "8px", "boxShadow": "0 2px 8px rgba(0,0,0,0.1)"}}>
-                    <h2>📄 Upload Resume</h2>
+                    <h2>Upload Resume</h2>
                     <textarea value={resume} onChange={lambda e: any -> None { setResume(e.target.value); }} placeholder="Paste your resume here..." style={{"width": "100%", "height": "200px", "padding": "10px", "marginBottom": "10px", "boxSizing": "border-box"}} />
                     <button onClick={uploadResume} style={{"width": "100%", "padding": "12px", "background": "#667eea", "color": "#fff", "border": "none", "borderRadius": "4px", "cursor": "pointer", "fontSize": "16px"}}>Analyze Resume</button>
                 </div>) if view == "upload" else (
@@ -337,7 +337,7 @@ cl {
                 </div>) if view == "profile" else (
                 
                 (<div style={{"background": "#fff", "padding": "30px", "borderRadius": "8px", "boxShadow": "0 2px 8px rgba(0,0,0,0.1)"}}>
-                    <h2>📊 Gap Analysis</h2>
+                    <h2>Gap Analysis</h2>
                     <h1 style={{"textAlign": "center", "color": "#667eea"}}>{analysis["readiness_score"]}%</h1>
                     <p style={{"textAlign": "center"}}>Readiness for {analysis["target_role"]}</p>
                     <h3 style={{"color": "#0a0"}}>Matched Skills</h3>
@@ -349,10 +349,10 @@ cl {
                 </div>) if view == "analysis" else (
                 
                 (<div style={{"background": "#fff", "padding": "30px", "borderRadius": "8px", "boxShadow": "0 2px 8px rgba(0,0,0,0.1)"}}>
-                    <h2>🎓 Learning Path</h2>
+                    <h2>Learning Path</h2>
                     <h3>{path["target_role"]}</h3>
                     <p><strong>Timeline:</strong> {path["timeline"]}</p>
-                    <h3>📚 Courses</h3>
+                    <h3>Courses</h3>
                     {path["courses"].map(lambda c: any -> any {
                         return <div key={c["title"]} style={{"padding": "15px", "background": "#f9f9f9", "marginBottom": "10px", "borderRadius": "4px"}}>
                             <h4 style={{"margin": "0 0 5px 0"}}>{c["title"]}</h4>
