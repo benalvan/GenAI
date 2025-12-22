@@ -70,12 +70,34 @@ Receive personalized course recommendations with:
 ## 📁 Project Structure
 ```
 PathFinderAI-app/
-├── app.jac              # Complete application (backend + frontend)
-├── utils.jac            # Utility functions
-├── .env                 # Environment variables (create this)
-├── requirements.txt     # Dependencies
-└── README.md           # This file
+├── assets/              # Static assets (images, icons)
+├── build/              # Production build output
+├── jac-env/            # Python virtual environment
+├── node_modules/       # Node.js dependencies
+├── src/                # Source code directory
+│   ├── app.jac        # Main application (backend + frontend)
+│   └── utils.jac      # Utility functions
+├── .babelrc           # Babel configuration
+├── .env               # Environment variables (create this!)
+├── app.jac            # Application entry point
+├── package-lock.json  # NPM lock file
+├── package.json       # Node.js dependencies
+├── README.md          # Project documentation
+├── requirements.txt   # Python dependencies
+├── utils.jac          # Shared utilities
+└── vite.config.js     # Vite build configuration
 ```
+
+### Key Files
+
+| File | Purpose |
+|------|---------|
+| `app.jac` | Complete full-stack application code |
+| `utils.jac` | Helper functions (timestamps, formatting) |
+| `.env` | API keys and environment variables |
+| `requirements.txt` | Python packages (jaclang, byllm) |
+| `package.json` | Node.js dependencies for Jac Client |
+| `vite.config.js` | Frontend build configuration |
 
 ## 🧪 Example Resume Format
 ```text
