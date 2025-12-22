@@ -185,5 +185,5 @@ jac serve app.jac --port 8080
 ## 🙏 Acknowledgments
 
 - Built with [JacLang](https://www.jac-lang.org/)
-- Powered by [Google Gemini](https://deepmind.google/technologies/gemini/)
+- Powered by [Google Gemini](https://aistudio.google.com/api-keys)
 - Uses [byLLM](https://docs.jaseci.org/learn/jac-byllm/usage/) framework
