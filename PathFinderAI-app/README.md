@@ -26,9 +26,10 @@ AI-powered career guidance platform that analyzes your resume, identifies skill 
 - Node.js 18+ (for Jac Client)
 - Gemini API Key ([Get one free](https://aistudio.google.com/app/apikey))
 
-### Installation
+### Installation & Setup
 ```bash
 # 1. Clone/Download the project
+git clone https://github.com/benalvan/GenAI.git
 cd PathFinderAI-app
 
 # 2. Install Python dependencies
@@ -74,17 +75,15 @@ PathFinderAI-app/
 ├── build/              # Production build output
 ├── jac-env/            # Python virtual environment
 ├── node_modules/       # Node.js dependencies
-├── src/                # Source code directory
-│   ├── app.jac        # Main application (backend + frontend)
-│   └── utils.jac      # Utility functions
+├── src/ 
 ├── .babelrc           # Babel configuration
 ├── .env               # Environment variables (create this!)
-├── app.jac            # Application entry point
+├── app.jac            # Main application (backend + frontend)
 ├── package-lock.json  # NPM lock file
 ├── package.json       # Node.js dependencies
 ├── README.md          # Project documentation
-├── requirements.txt   # Python dependencies
-├── utils.jac          # Shared utilities
+├── requirements.txt   # Dependencies
+├── utils.jac          # Utilities
 └── vite.config.js     # Vite build configuration
 ```
 
@@ -181,7 +180,7 @@ jac serve app.jac --port 8080
 ## 👥 Authors
 
 Benard Alvan [GitHub](https://github.com/benalvan/)
-Wendy Cloy [GitHub](https://github.com/username)
+Wendy Akoth [GitHub](https://github.com/WendyAkoth)
 
 ## 🙏 Acknowledgments
 
