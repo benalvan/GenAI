@@ -179,8 +179,8 @@ jac serve app.jac --port 8080
 
 ## 👥 Authors
 
-Benard Alvan [GitHub](https://github.com/benalvan/)
-Wendy Akoth [GitHub](https://github.com/WendyAkoth)
+1. Benard Alvan [GitHub](https://github.com/benalvan/)
+2. Wendy Akoth [GitHub](https://github.com/WendyAkoth)
 
 ## 🙏 Acknowledgments
 
