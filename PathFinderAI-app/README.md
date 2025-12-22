@@ -1,4 +1,4 @@
-# 🎯 Smart Career Path Navigator
+# 🎯 PathFinder AI (Smart Career Path Navigator)
 
 AI-powered career guidance platform that analyzes your resume, identifies skill gaps, and recommends personalized learning paths for your target role.
 
