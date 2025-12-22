@@ -20,12 +20,12 @@ node Skill {
 
 node LearningPath {
     has target_role: str;
+    has created_at: str;
     has gap_skills: list[str] = [];
     has matched_skills: list[str] = [];
     has courses: list[dict] = [];
     has timeline: str = "";
     has readiness_score: float = 0.0;
-    has created_at: str;
 }
 
 # BACKEND: Edges (Relationships)
