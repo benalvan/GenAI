@@ -1,5 +1,5 @@
 import from byllm.lib { Model }
-import from dotenv { load_dotenv }
+cl import from react { useState, useEffect }
 include utils;
 
 glob llm = Model(model_name="gemini/gemini-2.0-flash", verbose=False);
@@ -257,8 +257,6 @@ walker get_paths {
 
 # FRONTEND: Components
 
-cl import from react {useState, useEffect}
-
 cl {
     def app() -> any {
         [view, setView] = useState("upload");
@@ -366,9 +364,4 @@ cl {
             )}
         </div>;
     }
-}
-
-# ENTRY POINT
-with entry {
-    load_dotenv();
 }
